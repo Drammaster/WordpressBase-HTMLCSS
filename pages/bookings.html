@@ -50,7 +50,7 @@
         <!--First blurb-->
         <div class="container">
             <div class="row justify-content-between no-gutters">
-                <div class="col-sm-5 justify-content-center border mb-3">
+                <div type="button" class="col-sm-5 justify-content-center border mb-3" data-toggle="modal" data-target="#exampleModal">
                     <img class="img-fluid" src="../src/IMG_6631.jpg">
                     <br>
                     <div class="h4 p-1">
@@ -58,6 +58,25 @@
                     </div>
                     <div class="p-1">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
                     </div>
                 </div>
                 <div class="col-sm-5 justify-content-center border mb-3">
